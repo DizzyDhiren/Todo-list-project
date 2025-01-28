@@ -13,6 +13,10 @@ addTaskBtn.addEventListener('click', () => {
     addTask(taskText);
     saveTask(taskText);
     taskInput.value = '';
+    console.log("NO ERROR")
+  }else if (taskText === ""){
+    console.log("ERROR")
+    alert('NO TASK INPUT')
   }
 });
 
