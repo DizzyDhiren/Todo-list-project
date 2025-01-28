@@ -16,7 +16,8 @@ addTaskBtn.addEventListener('click', () => {
     console.log("NO ERROR")
   }else if (taskText === ""){
     console.log("ERROR")
-    alert('NO TASK INPUT')
+    taskInput.placeholder = "You have not typed a task here..."
+    //alert('NO TASK INPUT')
   }
 });
 
